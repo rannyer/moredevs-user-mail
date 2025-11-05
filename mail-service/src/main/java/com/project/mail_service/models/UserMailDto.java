@@ -3,7 +3,7 @@ package com.project.mail_service.models;
 import java.io.Serializable;
 
 
-public class UserMailDto implements Serializable {
+public class UserMailDto  {
     private String email;
     private String name;
     private Long id;

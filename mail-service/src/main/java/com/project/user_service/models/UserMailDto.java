@@ -1,15 +1,10 @@
 package com.project.user_service.models;
 
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
 import java.io.Serializable;
 
+public class UserMailDto implements Serializable {
+    private static final long serialVersionUID = 1L;
 
-public class UserMailDto  {
     private String email;
     private String name;
     private Long id;
@@ -47,3 +42,4 @@ public class UserMailDto  {
         this.id = id;
     }
 }
+
