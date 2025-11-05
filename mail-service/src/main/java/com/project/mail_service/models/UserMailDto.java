@@ -1,10 +1,4 @@
-package com.project.user_service.models;
-
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+package com.project.mail_service.models;
 
 import java.io.Serializable;
 
